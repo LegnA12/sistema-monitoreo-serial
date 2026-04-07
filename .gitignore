@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+
+# Entornos virtuales
+venv/
+.env/
+.venv/
+
+# Distribución / empaquetado
+dist/
+build/
+*.egg-info/
+
+# IDEs
+.vscode/
+.idea/
+*.code-workspace
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Datos exportados (no versionar CSVs generados por la app)
+datos_serial*.csv
