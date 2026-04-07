@@ -1,0 +1,36 @@
+# ============================================================
+# Sistema de Monitoreo Serial v5.1
+# Angel Maldonado Fuentes
+# ============================================================
+# Instalación rápida:
+#   pip install -r requirements.txt
+#
+# IMPORTANTE: Usar Python 3.10+ (recomendado 3.11.x con Anaconda).
+# PySide6 6.6.3 es la versión verificada estable para Python 3.11.5.
+# Versiones más recientes de PySide6 (≥6.7) pueden requerir
+# Visual C++ Redistributables más nuevos — ver CONTEXTO.md L03.
+# ============================================================
+
+# --- Interfaz gráfica ---
+PySide6==6.6.3
+PySide6_Essentials==6.6.3
+PySide6_Addons==6.6.3
+shiboken6==6.6.3
+
+# --- Gráficos ---
+matplotlib==3.7.2
+
+# --- Comunicación serial ---
+pyserial==3.5
+
+# --- Dependencias de matplotlib (instaladas automáticamente) ---
+numpy==1.24.3
+contourpy==1.0.5
+cycler==0.11.0
+fonttools==4.25.0
+kiwisolver==1.4.4
+packaging==23.1
+pillow==10.2.0
+pyparsing==3.0.9
+python-dateutil==2.8.2
+six==1.16.0
